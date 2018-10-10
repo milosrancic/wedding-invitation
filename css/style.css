@@ -20,6 +20,13 @@ body {
  color: #333;
 }
 
+@media only screen and (max-width: 387px) {
+  .nav-item a {
+    font-size: 10px;
+    color: purple;
+  }
+}
+
 .nav .nav-item  a:hover {
   color: #EF9295 !important;
 }
@@ -35,7 +42,7 @@ body {
  height: 640px;
 
 }
-@media only screen and (max-width: 400px)  {
+@media only screen and (max-width: 375px)  {
   #home-section {
     margin-left: -30px;
     padding-right: 10px;
