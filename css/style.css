@@ -20,9 +20,10 @@ body {
  color: #333;
 }
 
-@media only screen and (max-width: 386px) {
+@media only screen and (max-width: 387px) {
   .nav-item a {
-    font-size: 13px;
+    font-size: 10px;
+    color: purple;
   }
 }
 
