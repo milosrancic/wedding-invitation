@@ -34,10 +34,8 @@ body {
 /* --- Home section ---*/
 
 #home-section {
- background-image: url(../images/rings.jpeg);
- background-position: center;
+ background-image: url(../images/rings.jpeg) no-repeat center;
  background-size: cover;
- background-repeat: no-repeat;
  height: 640px;
 
 }
@@ -117,11 +115,9 @@ body {
 
 /* FLOWERS BG */
 #flowers-section {
-  background-image: url(../images/flowers.jpg);
-  background-position: center;
+  background-image: url(../images/flowers.jpg) no-repeat center;
   background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-attachment: fixed; */
   height: 590px;
   font-family: 'Lobster', cursive;
 
